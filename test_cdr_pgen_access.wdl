@@ -8,7 +8,7 @@ task probe_cdr {
     File psam
   }
 
-  command <
+command <<<
     set -uo pipefail
 
     echo "=== staged files ==="
